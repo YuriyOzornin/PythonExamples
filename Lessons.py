@@ -1,3 +1,5 @@
+# Краткая памятка
+
 # name = input("введите имя: ")
 # print("привет,", name)
 
@@ -123,8 +125,8 @@ Python позволяет встравивать в строку значени�
 
 # списки
 
-l = [1, 2, 3]
-print(len(l))
+# l = [1, 2, 3]
+# print(len(l))
 
 # is
 
@@ -158,4 +160,110 @@ print(len(l))
 # l.reverse()
 # print(l)
 
+# сортировка списков
 
+# l = [2, 1, 4, 2]
+# l.sort()
+# print(l)
+#
+# # идексация элементов списка
+#
+# print([2, 4, 6, 1].index(1))
+
+# стеки
+
+# stack = [5]
+# stack.append(34)
+# print(stack)
+# stack.pop()
+# print(stack)
+# stack.pop()
+# print(stack)
+
+# множества
+#
+# hero = "Harry"
+# guide = "Dublmore"
+# enemy = "Lord"
+# print(hash(hero))
+# print(hash(guide))
+#
+# # множества строковых значений
+#
+# characters = {hero, guide, enemy}
+# print(characters)
+
+# множества списков создать нельзя
+
+# team_1 = [hero, guide]
+# team_2 = [enemy]
+# teams = {team_1, team_2}
+# error
+
+# все элементы множества должны быть уникальными
+
+# ассоциативные массивы - для хранения данных пар: ключ значение
+
+# calories = {'apple' : 52, 'banana' : 89, 'choco' : 546}
+# print(calories['apple'] < calories['choco'])
+#
+# calories['cappu'] = 74
+# print(calories['banana'] < calories['cappu'])
+#
+# # для доступа ко всем ключам и значениям
+#
+# print('apple' in calories.keys())
+# print(52 in calories.values())
+#
+# # для доступа к парам ключ значение
+#
+# for k, v in calories.items():
+#     print(k) if v > 500 else None
+
+# принадлежность in
+#
+# print(3 in [3, 4 ,5])
+# print("21" in {"21" , "3"})
+
+# списковое включение (выражение и контекст) for if
+# x - идентификатор, x in range(3) - контекст
+
+# [x for x in range(3)]
+
+# customers = [("Jon", 25000),
+#              ("Ann", 1000000)]
+# whales = [x for x, y in customers if y > 900000]
+# print(whales)
+
+# if else elif
+
+# x = int(input("your value: "))
+# if x > 3:
+#     print("big")
+# elif x == 3:
+#     print("medium")
+# else:
+#     print("small")
+
+# циклы for while
+
+# for i in [0, 1, 2]:
+#     print(i)
+
+# j = 0
+# while j < 3:
+#     print(j)
+#     j = j + 1
+#
+# # break
+# # continue
+#
+# #  функции def
+#
+# def appreciate(x, percentage):
+#     return x + x * percentage / 100
+# print(appreciate(10000, 5))
+
+# лямбда функции lambda <аргументы> : <возвращаемое выражение>
+
+# print((lambda x: x + 13)(4))
