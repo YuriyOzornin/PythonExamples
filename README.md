@@ -96,4 +96,4 @@ ex23
 ex24
 * Крестики нолики
 
-** Calculator
+* Calculator
